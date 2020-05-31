@@ -77,7 +77,7 @@ class FileChange(object):
     def make_success_file(self):
         """
         To make a success list in ./backup/success.txt .
-        :return: 0
+        :return: Success file.
         """
         with open('./back-up/success_file_list.txt', 'a') as f:
             f.write(arrow.now().format('YYYY-MM-DD HH:mm') + '\n')
