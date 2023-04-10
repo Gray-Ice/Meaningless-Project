@@ -3,7 +3,6 @@ from win32file import CreateFile, SetFileTime, GetFileTime, CloseHandle
 from win32file import GENERIC_READ, GENERIC_WRITE, OPEN_EXISTING
 from pywintypes import Time  # 可以忽视这个 Time 报错（运行程序还是没问题的）
 import time
-import arrow
 
 
 def timeOffsetAndStruct(times, format, offset):
